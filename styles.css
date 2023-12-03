@@ -1,1 +1,161 @@
+body {
+    background: #f9f7fe;
+    font-family:"Fira Sans Extra";
+    font-weight:bolder;
+   
+  }
+  
+  a {
+    color: #885df1;
+  }
+  .container {
+    background: white;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 30px 50px rgba
+    (169, 168, 168, 0.8);
+  }
+  
+  .current-weather {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 50px;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 
+    rgba(0, 0, 0, 0.2);
+    font-family:"Roboto Flex";
+    font-weight:bolder;
+  }
 
+  .temperature{
+    display:flex;
+    align-items:center;
+    font-size: 36px;
+    margin: right 20px;
+    font-family:"Lato";
+    font-weight:700;
+  }
+  
+  
+  .current-city {
+    position: relative;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 42px;
+    color:black;
+    flex-grow:10;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+    font-family:"Taviraj";
+    font-weight:900;
+  }
+  
+  .city {
+    font-size: 30px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .city-details {
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 15px;
+    margin-left: 15px;
+    position: relative;
+    font-family:"Fira Sans Extra";
+    font-weight: 600px;
+  }
+  
+  .search-input {
+    background-color: #f9f7fe;
+    border: none;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    padding: 20px;
+    width: 65%;
+    border-radius: 6px;
+    font-family: "IBM PLex Serif";
+    font-weight: 500px;
+  }
+  
+  .search-button {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #885df1;
+    color: white;
+    border: none;
+    padding: 20px;
+    line-height: 1;
+    border-radius: 5px;
+  }
+  
+ 
+  
+  .current-city {
+    position: relative;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 42px;
+    color:black;
+    flex-grow:10;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+    font-family:"Taviraj";
+    font-weight:900;
+  }
+  
+  h2 {
+    font-size: 18px;
+    padding-top: 15px;
+    font-family:"Taviraj";
+    font-weight: lighter;
+  }
+  
+  .weekly-weather {
+    margin: 25px auto;
+  }
+  
+  .days-of-the-week {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family:"Prompt";
+    font-weight:600px;
+  }
+  
+  .weather-emoji {
+    font-size: 18px;
+  }
+  .weather-degree {
+    font-size: 12px;
+    color: rgba(39, 33, 66, 0.4);
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(16, 15, 23, 0.4);
+    font-family:"IBM Plex Serif";
+    font-weight:800px;
+  }
+  
