@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:
+wght@400;500;600;700;800;900&family=IBM+Plex+Serif:wght@500;600;700&family=
+Lato:wght@700;900&family=Prompt:wght@600;700;800;900&family=Roboto+Flex:opsz,
+wght@8..144,600;8..144,700&family=Spectral:wght@800&family=Taviraj:ital,
+wght@0,200;0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<title>My Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a City.."
+            required=""
+            class="search-input"
+          />
+          <input type="submit" value="Search" 
+          class="search-button" />
+        </form>
+      <div>
+      </header>
+
+      <main>
+        <br />
+        <div class="current-weather">
+          <div class="temperature">
+            <span class="current-temperature-icon">🌤️</span
+            ><span class="current-temperature-value">19</span
+            ><span class="current-temperature-unit">°C</span>
+          </div>
+<br><br>
+
+<div class="current-city">
+  <div><strong>BOGOTÁ</strong></div>
+  
+</div>
+<br>
+<div class="weather-city">
+    <div class="city-details">
+      <strong></strong>
+      <br>
+    Precipitation: 40%
+    <br>
+    Humidity: 73%
+    <br>
+    Wind: 16 km/h
+    <br />
+    Mostly Cloudy
+    </div>
+  </div>
+</div>
+
+
+  <h2><strong>Temperature</strong> | Precipitation | <strong>Wind</strong></h2>
+  
+        <div class="weekly-weather">
+          <div class="days-of-the-week">
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+            <div>Sun</div>
+          </div>
+
+          <ul class="weather-emoji">
+            <li>☁️</li>
+            <li>🌤️</li>
+            <li>🌧️</li>
+            <li>⛈️</li>
+            <li>🌧️</li>
+            <li>☀️</li>
+            <li>🌤️</li>
+          </ul>
+
+          <ul class="weather-degree">
+            <li>19° 11°</li>
+            <li>20° 12°</li>
+            <li>21° 13°</li>
+            <li>21° 12°</li>
+            <li>20° 11°</li>
+            <li>22° 13°</li>
+            <li>23° 14°</li>
+          </ul>
+        
+      </main>
+
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Baddie In Tech</a> and is
+          <a href="#" target="_blank"> on CodeHub</a> and
+          <a href="#" target="_blank">hosted on NetPrick</a>
+        </p>
+        <script src="src/index.js"></script>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
+
+
