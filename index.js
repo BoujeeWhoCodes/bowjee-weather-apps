@@ -8,7 +8,7 @@ function displayTemperature(response) {
 
 function search(event) {
   event.preventDefault();
-  let searchInputElement = document.querySelector("#search-input");
+  let searchInputElement = document.querySelector(".search-input");
   let cityElement = document.querySelector(".current-city");
   cityElement.innerHTML = searchInputElement.value;
 
@@ -45,10 +45,14 @@ function formatDate(date) {
   return `${formattedDay} ${hours}:${minutes}`;
 }
 
-let searchForm = document.querySelector("#search-form");
+let searchForm = document.querySelector(".search-form");
 searchForm.addEventListener("submit", search);
 
-let currentDateELement = document.querySelector("#current-date");
-let currentDate = new Date();
+let currentDateElement = document.querySelector("#current-date");
+if (currentDateElement) {
+  let currentDate = new Date();
+  currentDateElement.innerHTML = formatDate(currentDate);
+} else {
+  console.error("Element with ID 'current-date' not found.");
+}
 
-currentDateELement.innerHTML = formatDate(currentDate);
